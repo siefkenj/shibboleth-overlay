@@ -1,6 +1,6 @@
 ### shibboleth-overlay ###
 
-A gentoo overlay to install shibboleth-sp and its dependencies (Fork).
+A gentoo overlay to install shibboleth-sp for apache2.4 (fork from flyser).
 
 ### Usage ###
 
