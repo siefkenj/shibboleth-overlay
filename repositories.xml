@@ -4,14 +4,14 @@
   <repo quality="testing" status="unofficial">
     <name><![CDATA[shibboleth]]></name>
     <description lang="en"><![CDATA[Ebuilds for Shibboleth]]></description>
-    <homepage>https://github.com/flyser/shibboleth-overlay</homepage>
+    <homepage>https://github.com/nelsonglory/shibboleth-overlay</homepage>
     <owner type="person">
-      <email>flyser42@gmx.de</email>
-      <name><![CDATA[Fabian Henze]]></name>
+      <email>rode@nelsonglory.de</email>
+      <name><![CDATA[Roderick Braun]]></name>
     </owner>
-    <source type="git">git://github.com/flyser/shibboleth-overlay.git</source>
-    <source type="git">https://github.com/flyser/shibboleth-overlay.git</source>
-    <feed>https://github.com/flyser/shibboleth-overlay/commits/master.atom</feed>
+    <source type="git">git://github.com/nelsonglorynelsonglory/shibboleth-overlay.git</source>
+    <source type="git">https://github.com/nelsonglory/shibboleth-overlay.git</source>
+    <feed>https://github.com/nelsonglory/shibboleth-overlay/commits/master.atom</feed>
   </repo>
 </repositories>
 
