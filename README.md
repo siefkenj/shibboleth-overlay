@@ -6,7 +6,6 @@ A gentoo overlay to install shibboleth-sp and its dependencies.
 
 #### Using layman ####
 
-Add overlay with layman:
 Run `layman -o https://raw.github.com/nelsonglory/shibboleth-overlay/master/repositories.xml -f -a shibboleth && emerge -a shibboleth-sp`
 
 #### Manual ####
