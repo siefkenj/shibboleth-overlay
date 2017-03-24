@@ -6,13 +6,12 @@ A gentoo overlay to install shibboleth-sp and its dependencies.
 
 #### Using layman ####
 
-Add `https://raw.github.com/flyser/shibboleth-overlay/master/repositories.xml` to the *overlays* variable in in ``/etc/layman/layman.cfg``.
-
-Run `layman -f && layman -a shibboleth && emerge -a shibboleth-sp`
+Add overlay with layman:
+Run `layman -o https://raw.github.com/nelsonglory/shibboleth-overlay/master/repositories.xml -f -a shibboleth && emerge -a shibboleth-sp`
 
 #### Manual ####
 
-Clone `https://github.com/flyser/shibboleth-overlay.git` repository somewhere and add the path to the *PORTDIR_OVERLAY* variable in `/etc/portage/make.conf`
+Clone `https://github.com/nelsonglory/shibboleth-overlay.git` repository somewhere and add the path to the *PORTDIR_OVERLAY* variable in `/etc/portage/make.conf`
 
 ### State ###
 
