@@ -6,7 +6,7 @@ inherit eutils autotools
 
 DESCRIPTION="Open Source Security Assertion Markup Language implementation"
 HOMEPAGE="http://www.opensaml.org/"
-SRC_URI="http://www.shibboleth.net/downloads/c++-opensaml/${PV}/${PN}-${PV}.tar.gz"
+SRC_URI="https://shibboleth.net/downloads/c++-opensaml/${PV}/${PN}-${PV}.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
