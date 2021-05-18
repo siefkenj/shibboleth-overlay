@@ -8,7 +8,7 @@ inherit apache-module eutils
 
 DESCRIPTION="Standards-based middleware which provides Web Single SignOn (SSO) across or within organizational boundaries."
 HOMEPAGE="http://www.shibboleth.net"
-SRC_URI="http://www.shibboleth.net/downloads/service-provider/${PV}/${PN}-${PV}.tar.gz"
+SRC_URI="https://shibboleth.net/downloads/service-provider/${PV}/${PN}-${PV}.tar.gz"
 
 RESTRICT="mirror"
 
@@ -21,11 +21,11 @@ IUSE="ads doc odbc"
 #S=${WORKDIR}/shibboleth-${PV}
 
 DEPEND="dev-libs/openssl
-	dev-libs/log4shib
+	=dev-libs/log4shib-2.0.0
 	dev-libs/xerces-c
-	>=dev-libs/xml-security-c-1.5.1
-	>=dev-cpp/xmltooling-c-1.4.2
-	>=dev-cpp/opensaml-2.4"
+	=dev-libs/xml-security-c-2.0.2
+	>=dev-cpp/xmltooling-3.1.0
+	>=dev-cpp/opensaml-3.0.1"
 
 APACHE2_MOD_FILE="${S}/apache/.libs/mod_shib_24.so"
 APACHE2_MOD_CONF="20_${PN}"

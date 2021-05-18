@@ -1,6 +1,7 @@
 # Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
+EAPI=5
 
 inherit eutils autotools
 
@@ -15,10 +16,10 @@ IUSE=""
 
 DEPEND="dev-libs/openssl
 	net-misc/curl
-	dev-libs/log4shib
+	=dev-libs/log4shib-2.0.0
 	dev-libs/xerces-c
-	>=dev-libs/xml-security-c-1.5.1
-	>=dev-cpp/xmltooling-c-1.4.2"
+	>=dev-libs/xml-security-c-2.0.2
+	>=dev-cpp/xmltooling-3.0.4"
 RDEPEND=${DEPEND}
 
 #src_unpack() {
