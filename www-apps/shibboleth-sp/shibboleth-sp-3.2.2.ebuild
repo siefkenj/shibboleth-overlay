@@ -25,7 +25,7 @@ DEPEND="dev-libs/openssl
 	dev-libs/xerces-c
 	=dev-libs/xml-security-c-2.0.2
 	>=dev-cpp/xmltooling-3.1.0
-	>=dev-cpp/opensaml-3.0.1"
+	>=dev-cpp/opensaml-3.1.0"
 
 APACHE2_MOD_FILE="${S}/apache/.libs/mod_shib_24.so"
 APACHE2_MOD_CONF="20_${PN}"
